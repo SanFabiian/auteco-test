@@ -311,6 +311,15 @@ main {
 .category-lateral {
   display: none;
 }
+.copy {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+}
+.copy p {
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+}
 @media screen and (min-width: 768px) {
   summary {
     display: none;

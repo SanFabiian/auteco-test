@@ -50,6 +50,9 @@ const Footer = () => {
         </form>
       </div>
       </section>
+    <div class='copy'>
+    <p>Hecho con ♥ por Fabian Sandobal
+    </div>
     `;
   return view;
 };
