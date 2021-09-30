@@ -1,10 +1,10 @@
 const Header = () => {
   const view = `
   <section class="content-wrap">
-    <div class="header-menu">
-      <a href="/" class="header-logo"
-        ><img src="./src/images/logo.jpg" width="120" alt="Logo mi zapato"
-      /></a>
+  <div class="header-menu">
+    <a href="/" class="header-logo"
+      ><img src="./src/images/logo.jpg" width="120" alt="Logo mi zapato"
+    /></a>
       <nav class="header-nav">
         <details class="header-nav-list">
           <summary>

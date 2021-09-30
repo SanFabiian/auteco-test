@@ -6,7 +6,7 @@ const Product = async () => {
   const product = await getData(id);
   const productsCarousel = await getData();
   const view = `
-<section class='product-view'>
+<section class='product-view content-wrap'>
     <article class='product-view-image'>
       <figure>
         <img src='${__dirname}src/images/products/mini/${product.foto}'>
@@ -60,13 +60,13 @@ const Product = async () => {
   </div>
   </article>
 </section>
-<section class='product-description'>
+<section class='product-description content-wrap'>
   <h2>Detalles de producto</h2>
   <p>${product.descripcion}
   <h2>Tecnologías</h2>
   <p>${product.tecnologia}
 </section>
-<section class='product carousel-wrap'>
+<section class='product carousel-wrap content-wrap'>
 ${productsCarousel
   .map(
     (product) => `

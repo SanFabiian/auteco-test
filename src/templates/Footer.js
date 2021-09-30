@@ -11,7 +11,7 @@ const Footer = () => {
     ></a>
   </div>
 </section>
-<section class='contact'>
+<section class='contact content-wrap'>
         <div class="footer-services">
         <h3>Servicio al cliente</h3>
         <ul>

@@ -4,42 +4,43 @@ const Home = async () => {
   <section class='banner-wrap'>
       <picture class="banner">
         <source
-          media="(min-width: 768px)"
-          srcset="./src/images/home-banner-768.jpg"
+          media="(min-width: 1920px)"
+          srcset="./src/images/home-banner-1920.jpg"
         />
-        <img src="./src/images/home-banner-600.jpg" alt="imagen de un closet" />
+        <source
+          media="(min-width: 768px)"
+          srcset="./src/images/home-banner.jpg"
+        />
+        <img src="./src/images/home-banner-600.jpg" alt="imagen de un closet1" />
       </picture>
       <picture class="banner">
         <source
           media="(min-width: 768px)"
           srcset="./src/images/gallery-02.jpg"
         />
-        <img src="./src/images/gallery-02.jpg" alt="imagen de un closet" />
+        <img src="./src/images/gallery-02.jpg" alt="imagen de un closet2" />
+      </picture>
+      <picture class="banner">
+      <source
+      media="(min-width: 1920px)"
+      srcset="./src/images/home-banner-1920.jpg"
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="./src/images/home-banner.jpg"
+    />
+        <img src="./src/images/home-banner-600.jpg" alt="imagen de un closet1" />
       </picture>
       <picture class="banner">
         <source
           media="(min-width: 768px)"
-          srcset="./src/images/gallery-04.jpg.jpg"
+          srcset="./src/images/gallery-02.jpg"
         />
-        <img src="./src/images/gallery-04.jpg" alt="imagen de un closet" />
-      </picture>
-      <picture class="banner">
-        <source
-          media="(min-width: 768px)"
-          srcset="./src/images/gallery-01.jpg.jpg"
-        />
-        <img src="./src/images/gallery-01.jpg" alt="imagen de un closet" />
-      </picture>
-      <picture class="banner">
-        <source
-          media="(min-width: 768px)"
-          srcset="./src/images/gallery-02.jpg.jpg"
-        />
-        <img src="./src/images/gallery-02.jpg" alt="imagen de un closet" />
+        <img src="./src/images/gallery-02.jpg" alt="imagen de un closet2" />
       </picture>
   </section>
 </div>
-  <section class="gallery">
+  <section class="gallery content-wrap">
     <picture>
       <img src="./src/images/gallery-01.jpg" alt="" />
     </picture>
